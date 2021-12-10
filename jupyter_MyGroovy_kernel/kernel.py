@@ -1040,13 +1040,13 @@ class GroovyKernel(MyKernel):
     implementation = 'jupyter-MyGroovy-kernel'
     implementation_version = '1.0'
     language = 'Groovy'
-    language_version = 'C11'
-    language_info = {'name': 'text/x-csrc',
-                     'mimetype': 'text/x-csrc',
+    language_version = ' '
+    language_info = {'name': 'text/groovy',
+                     'mimetype': 'text/groovy',
                      'file_extension': '.groovy'}
     runfiletype='class'
     banner = "MyGroovy kernel.\n" \
-             "Uses Groovy, compiles in C11, and creates source code files and executables in temporary folder.\n"
+             "Uses Groovy, compiles in groovy, and creates source code files and executables in temporary folder.\n"
     main_head = "#include <stdio.h>\n" \
             "#include <math.h>\n" \
             "int main(int argc, char* argv[], char** env){\n"
