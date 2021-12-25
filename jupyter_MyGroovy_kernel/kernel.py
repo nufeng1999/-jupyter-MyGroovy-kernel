@@ -1262,7 +1262,7 @@ class GroovyKernel(MyKernel):
     implementation = 'jupyter-MyGroovy-kernel'
     implementation_version = '1.0'
     language = 'Groovy'
-    language_version = ' '
+    language_version = ''
     language_info = {'name': 'text/groovy',
                      'mimetype': 'text/groovy',
                      'file_extension': '.groovy'}
